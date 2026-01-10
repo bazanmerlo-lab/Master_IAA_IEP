@@ -1,0 +1,7 @@
+{
+  "name": "Co-Creative AI Hub",
+  "description": "A collaborative platform for marketing teams to create, edit, and approve AI-generated content with integrated workflow management and guardrails.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
