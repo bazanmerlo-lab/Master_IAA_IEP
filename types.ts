@@ -26,6 +26,14 @@ export interface User {
   role: UserRole;
 }
 
+export interface ProjectLog {
+  timestamp: number;
+  userId: string;
+  userName: string;
+  action: string;
+  details?: string;
+}
+
 export interface ContentProject {
   id: string;
   type: ContentType;
@@ -45,4 +53,5 @@ export interface ContentProject {
   creatorComments?: string;
   reviewerComments?: string;
   updatedAt: number;
+  logs: ProjectLog[];
 }
